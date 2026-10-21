@@ -9,5 +9,6 @@
 ## Скриншоты
 1. 
 ![Результат](/img/result_Lab08_barakov.png)
+
 2. 
 ![Git](/img/git_Lab08_barakov.png)
