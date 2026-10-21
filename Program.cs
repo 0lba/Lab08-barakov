@@ -39,26 +39,26 @@ int[] a = { 120, 45, 300, 80, 15, 210 };
 // int b = ReadPositive("Введите второе положительное число: ");
 // Console.WriteLine(a + b);
 //Иторговая задача
-// int n;
-// do
-// {
-//     Console.WriteLine("1 - Максимальное число из 2х чисел");
-//     Console.WriteLine("2 - Факториал");
-//     Console.WriteLine("3 - количество элементов, больших числа");
-//     Console.WriteLine("0 - Выход");
-//     int.TryParse(Console.ReadLine(), out n);
-//     switch (n)
-//     {
-//         case 1: Console.WriteLine(Max(1, 2));break;
-//         case 2: Console.WriteLine(Factorial(5));break;
-//         case 3: Console.WriteLine(CountGreater(a, 100));break;
-//         case 0: break;
-//         default: Console.WriteLine("Нет такого пункта");break;
-//     }
-// }while (n != 0);
+int n;
+do
+{
+    Console.WriteLine("1 - Максимальное число из 2х чисел");
+    Console.WriteLine("2 - Факториал");
+    Console.WriteLine("3 - количество элементов, больших числа");
+    Console.WriteLine("0 - Выход");
+    int.TryParse(Console.ReadLine(), out n);
+    switch (n)
+    {
+        case 1: Console.WriteLine(Max(1, 2));break;
+        case 2: Console.WriteLine(Factorial(5));break;
+        case 3: Console.WriteLine(CountGreater(a, 100));break;
+        case 0: break;
+        default: Console.WriteLine("Нет такого пункта");break;
+    }
+}while (n != 0);
 //Доп задание
-Console.WriteLine(Gcd(48, 18));
-Console.WriteLine(Lcm(4, 6));
+// Console.WriteLine(Gcd(48, 18));
+// Console.WriteLine(Lcm(4, 6));
 
 static void PrintLine()
 {
